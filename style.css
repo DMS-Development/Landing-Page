@@ -1,0 +1,217 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/** {
+    border: solid red 1px;
+}*/
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#content1 {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.headerText {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.subContent {
+    padding: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.leftSide {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+}
+
+.heroText {
+    font-size: 48px;
+    width: max-content;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.bodyText {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.leftSide button {
+    width: max-content;
+    background-color: #3882F6;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+
+.photoLogo img {
+    height: 175px;
+    width: 175px;
+    border: solid 2px black;
+    border-radius: 90px;
+}
+
+#content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content2 .title {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.photoContent img {
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    border: solid 2px #3882F6;
+}
+
+.photoContent {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 90px;
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.photos {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-weight: lighter;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#content3 {
+    height: 450px;
+    width: auto;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio {
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filler {
+    width: 400px;
+    margin: 0px;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: lighter;
+    flex-basis: 0;
+}
+
+.signature {
+    padding-right: 100px;
+    align-self: flex-end;
+}
+
+#content4 {
+    height: 350px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    height: 150px;
+    width: 900px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main {
+    font-weight: bold;
+}
+
+.sub {
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.banner button {
+    width: max-content;
+    background-color: #3882F6;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border: solid 1.5px white;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    height: 70px;
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
